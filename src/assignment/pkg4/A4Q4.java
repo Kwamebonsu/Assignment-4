@@ -41,7 +41,7 @@ public class A4Q4 {
         //find the total cosst
         double totalcost = number1 + number2 + number3 + number4 + number5 + number6;
 
-        System.out.println("The total cost of the prom is $" + totalcost + ".");
+        System.out.print("The total cost of the prom is $" + totalcost + ". ");
 
         //find the number of ticket sales required to break even
 
