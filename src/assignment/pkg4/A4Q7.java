@@ -30,6 +30,10 @@ public class A4Q7 {
         } else if (roll1 == 0) {
             System.out.println("You Quit!");
         }
+        if (position2 >=100){
+            System.out.println("You won!");
+        }
+        if (position2 <100){
         System.out.print("Enter sum of dice: ");
         double roll2 = input.nextDouble();
         double position3 = position2 + roll2;
