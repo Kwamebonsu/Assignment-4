@@ -33,6 +33,7 @@ public class Question8 extends javax.swing.JFrame {
         Button = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Name");
         setBackground(new java.awt.Color(204, 204, 204));
 
         jLabel1.setText("Name");
@@ -78,8 +79,8 @@ public class Question8 extends javax.swing.JFrame {
                 .addGap(26, 26, 26)
                 .addComponent(Button)
                 .addGap(54, 54, 54)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(144, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(118, Short.MAX_VALUE))
         );
 
         pack();
